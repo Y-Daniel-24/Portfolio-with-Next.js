@@ -1,0 +1,18 @@
+.overflow {
+  height: 50%;
+  overflow: hidden;
+}
+
+.overflow .card-img-top {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+.overflow .card-img-top:hover {
+  transform: scale(1.5);
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
